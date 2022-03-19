@@ -35,6 +35,8 @@ import Shop from "./components/Shop/Shop.vue";
 
 .cart {
   grid-area: cart;
+  border-left: var(--border);
+  background-color: white;
 }
 
 .shop {
