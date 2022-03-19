@@ -1,8 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CartProduct from "./CartProduct.vue";
+</script>
 
 <template>
-  <div>
-    <h1>Cart Product List</h1>
+  <div class="d-flex flex-column">
+    <CartProduct />
+    <CartProduct />
+    <CartProduct />
+    <CartProduct />
+    <CartProduct />
+    <CartProduct />
+    <CartProduct />
+    <CartProduct />
+    <CartProduct />
   </div>
 </template>
 

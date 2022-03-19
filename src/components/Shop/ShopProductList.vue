@@ -3,7 +3,9 @@ import ShopProduct from "./ShopProduct.vue";
 </script>
 
 <template>
-  <div>
+  <div class="grid p-20">
+    <ShopProduct />
+    <ShopProduct />
     <ShopProduct />
     <ShopProduct />
     <ShopProduct />
@@ -13,4 +15,11 @@ import ShopProduct from "./ShopProduct.vue";
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 400px;
+  gap: 20px;
+}
+</style>
