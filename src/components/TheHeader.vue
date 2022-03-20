@@ -11,7 +11,7 @@
       <li class="mr-10"><a href="#">Boutique</a></li>
       <li><a href="#">Admin</a></li>
     </ul>
-    <ul class="d-flex flex-row">
+    <ul class="d-flex flex-row mr-20">
       <li class="mr-10"><a href="#">Connexion</a></li>
       <li><a href="#">Inscription</a></li>
     </ul>
