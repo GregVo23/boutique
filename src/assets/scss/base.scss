@@ -52,6 +52,12 @@ body {
   background-color: var(--grey-1);
 }
 
+input {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 8px 15px;
+}
+
 // flex
 
 .d-flex {
@@ -105,6 +111,10 @@ body {
 
 .mb-10 {
   margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 
 .mr-10 {
